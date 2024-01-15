@@ -1,0 +1,40 @@
+:root {
+  --main-background-color: #87CEEB;
+  --game-container-background-color: #2ecc71;
+  --player-background-color: #e74c3c;
+  --obstacle-background-color: #f39c12;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--main-background-color);
+}
+
+#game-container {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  background-color: var(--game-container-background-color);
+  overflow: hidden;
+}
+
+#player {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--player-background-color);
+}
+
+.obstacle {
+  position: absolute;
+  bottom: 0;
+  width: 30px;
+  height: 30px;
+  background-color: var(--obstacle-background-color);
+}
