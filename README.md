@@ -15,10 +15,36 @@
 
 # endless-runner-html
 
+A tiny endless runner in plain HTML, CSS and JavaScript: jump the blocks, and it gets faster the
+longer you last.
+
+**Play it:** https://cursedprograms.github.io/endless-runner-html/
+
+[Farica☆Kimora](https://github.com/Farica-Kimora) © Cursed Entertainment
+
+## How to play
+- **Space**, **up arrow**, or **tap / click** the game to jump (and to start or restart).
+- Some blocks are taller. Every block you clear adds a point and a little speed.
+
+## Run it locally
+No build step: open `index.html` in a browser.
+
+## Files
+- `index.html` - the page
+- `index.css` - the look
+- `index.js` - the game: a requestAnimationFrame loop with simple gravity and box collisions
+- `404.html`, `500.html` - error pages for GitHub Pages
+
+---
+
 <br>
-© Cursed Entertainment 2024
+<div align="center">
+© Cursed Entertainment 2026
+</div>
 <br>
+<div align="center">
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
-        alt="CursedEntertainment Logo">
+        alt="CursedEntertainment Logo" style="width:250px;">
 </a>
+</div>

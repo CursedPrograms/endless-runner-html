@@ -5,15 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Endless Runner</title>
-  <link rel="stylesheet" href="index.css">
+  <meta name="description" content="A tiny endless runner in plain HTML, CSS and JavaScript: jump the blocks, it gets faster.">
   <link rel="stylesheet" type="text/css"
     href="https://cursedprograms.github.io/cursedentertainment/styles/main-style.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  <div id="game-container">
-    <div id="player"></div>
-  </div>
+  <main class="runner">
+    <h1>Endless Runner</h1>
+    <p id="score" class="score">Score: 0</p>
+    <div id="game-container" aria-label="Endless runner: press space or tap to jump">
+      <div id="player"></div>
+      <div id="message" class="message">Space, up arrow or tap to start</div>
+    </div>
+    <p class="help">Jump the blocks. It gets faster.</p>
+  </main>
+  <p class="credit"><a href="https://farica-kimora.github.io/FaricaKimora/">Farica&#9734;Kimora</a> &copy; Cursed Entertainment</p>
   <footer id="dynamicFooter"></footer>
   <script src="https://cursedprograms.github.io/cursedentertainment/scripts/footer.js"></script>
   <script src="index.js"></script>
